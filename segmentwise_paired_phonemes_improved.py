@@ -1,4 +1,7 @@
-# phoneme alignment
+# phoneme alignments
+# for each pair of source-target segments, count the number of related phonemes (i.e. that belong to the same phonetic class) that occur at the same time.
+# output: list with phonemes grouped by phonetic class, segment id. 
+
 from os.path import join
 import textgrids
 from os import listdir
