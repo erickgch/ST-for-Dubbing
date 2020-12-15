@@ -1,5 +1,5 @@
-# improvements with respect to nbest-take1: for each source segment, if no hypothesis with the same number of 
-    # syllables is found within the first 25, take the best ranked hypothesis with the closes number of syllables. 
+# rescore nbest hypotheses. 
+# algorithm: look for the highest ranked hypothesis with the closest number of syllables to those in the source segment. Best hypotheses are stored in 'bests'.
 
 import sys
 import re
@@ -89,3 +89,4 @@ with open(infile) as inf, open(outfile_spa, 'w') as out_trg, open(outfile_eng,'w
                 
             bests.append(temp_)
 
+print(bests)
