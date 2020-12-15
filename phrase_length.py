@@ -1,4 +1,5 @@
-# This script looks at the length of prosodic phrases both in terms of number of words and duration
+# This script looks at the length of prosodic phrases both in terms of number of words and duration. Used to compare source to target. 
+
 import pandas as pd
 import math, statistics
 import glob
