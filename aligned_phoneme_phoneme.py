@@ -1,4 +1,4 @@
-# This script looks at the frequency of synchronic phoneme-to-phoneme matches for any pair of aligned segments. (e.g. /p/ in ENG --> /p/ in SPA)
+# This script looks at the frequency of overlapping phoneme-to-phoneme matches for any pair of aligned segments. (e.g. /p/ in ENG --> /p/ in SPA)
 
 import pandas as pd
 
