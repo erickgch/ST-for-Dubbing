@@ -1,4 +1,4 @@
-# This script returns a dataframe with the mean StdDev of f0 and intensity values per prosodic phrase, in addition to a comparison of these values between English and Spanish
+# This script returns a dataframe with the mean StdDev of f0 and intensity values per prosodic phrase, in addition to a comparison of these values between source and target.
 
 import pandas as pd
 import math, statistics
