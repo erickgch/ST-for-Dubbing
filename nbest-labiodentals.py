@@ -1,4 +1,5 @@
-# obtain the highest ranking hypothesis with the closes number of word-initial bilabials to the source 
+# rescore nbest hypotheses
+# obtain the highest ranking hypothesis with the closest number of word-initial bilabials to the source 
 
 import sys
 import re
